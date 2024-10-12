@@ -1,0 +1,1 @@
+This section is for self tracking purposes as I continue to learn more programming and computer science.
