@@ -1,0 +1,38 @@
+Functions - actions or words that let you do things within the program
+
+Arguments - input to a function that influences its behaviour
+
+SyntaxError - have a mistake at the keyboard
+
+Variables - stores values within the computer
+
+Comments - notes to yourself within your code
+
+Pseudocode - using language to explain your code. This is a good way to structure your code in order to lay out everything that is needed to be used.
+    EX. 
+    # Ask user for their name 
+
+    # Say hello to the user
+
+    Having this laid out prior to actually putting the code can help build the strucure on how you want to create the code. 
+    EX.
+    # Ask user for their name 
+    name = input("What is your name?")
+
+    # Say hello to the user
+    print("Hello, " + name)
+	
+String Manipulation
+	# Remove whitespace from str
+	name = name.strip()
+	
+	#Splitting names, this will seperate it from 2 names
+	first, last = name.split(" ")
+	
+Interger (whole numbers)
+    + = addition
+    - = subtraction
+    * = multiplication
+    / = division
+    % = returns the remainder 
+	
