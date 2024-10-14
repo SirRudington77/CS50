@@ -12,14 +12,12 @@ If the file’s name ends with some other suffix or has no suffix at all, output
 """
 def fileExtensions():
     # prompt user for a name of a file
-    fileType = input("What is the file name?: ").lower()
+    fileType = input("What is the file name?: ").lower().strip()
 
     # output file name if the file name ends with the type
     if fileType.endswith(".gif"):
         print("image/gif")
-    elif fileType.endswith(".jpg"):
-        print("image/jpg")
-    elif fileType.endswith(".jpeg"):
+    elif fileType.endswith(".jpg") or fileType.endswith(".jpeg"):
         print("image/jpeg")
     elif fileType.endswith(".png"):
         print("image/png")
