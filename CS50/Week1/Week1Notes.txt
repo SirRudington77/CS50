@@ -1,0 +1,16 @@
+ This matches whatever the variable is to the items within the cases.
+ 
+ match (variable):
+	If the variable is equivalent to the item then it will execute the line of code within that case
+	case (item):
+		print (string)
+	case (item):
+		print (string)
+	case (item):
+		print (string)
+	The _ plays as a catch all in where if the variable is not within any of the cases that are already in place, execute what is within the case.
+	case _:
+		print (string)
+	The | allows you to condense the case in where it can check all of the items within the one case line and be able to execute the code within the case.
+	case (item) | (item):
+		print (string)
