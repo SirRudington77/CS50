@@ -25,7 +25,7 @@ def convert(x):
     hour = float(hour)
     minute = float(minute)
     decimalConversion = float(hour + (minute / 60))
-    return round(decimalConversion)
+    return round(decimalConversion, 2)
 
 
 if __name__ == "__main__":
