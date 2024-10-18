@@ -8,12 +8,27 @@ For instance, if the user inputs 1 + 1, your program should output 2.0. Assume t
 
 Note that, just as python itself is an interpreter for Python, so will your interpreter.py be an interpreter for math!
 """
+def mathEquation():
+    # prompt user for arithmetic expression
+    possibleEquation = input("What is your equation?: ")
 
-# prompt user for arithmetic expression
+    # seperate the string into variables
+    number1, operator, number2 = possibleEquation.split()
 
-# calculate the expression
+    number1 = int(number1)
+    number2 = int(number2)
 
-# output results as a float with one decimal place
+    # make the equation
+    if operator == "+":
+        print(float(number1 + number2))
+    elif operator == "-":
+        print(float(number1 - number2))
+    elif operator == "*":
+        print(float(number1 * number2))
+    elif operator == "/":
+        print(round(float(number1 / number2), 1))
+    else:
+        print ("Input in proper format: number operator number. Example: x + y ")
 
 
-
+mathEquation()
