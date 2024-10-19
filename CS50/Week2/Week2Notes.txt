@@ -1,0 +1,7 @@
+when using a for loop:
+	it is conventional to put an underscore in the variable location if that is a variable that you will not use in the future but is in place only because the function requires a variable
+	ex.
+		for _ in range(3):
+			print("something")
+			
+	*** Should not nest more than 3 times. 
