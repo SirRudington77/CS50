@@ -1,3 +1,4 @@
+# Not passing the check. Need to troubleshoot for the correct results
 def cokeMachine():
     # Set values
     coke = 50
